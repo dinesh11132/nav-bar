@@ -263,14 +263,8 @@ nav ul li a:hover {
   margin: 20px;
   width: fit-content;
 }
-.start {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  gap: 10px;
-  position: relative;
-}
+
+
 
 /* SECTION */
 .intro {
@@ -278,13 +272,21 @@ nav ul li a:hover {
   padding: 60px 5%;
   
 }
-
 .start {
-  display: flex;
+   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  margin-top: 20px;
+  gap: 10px;
+  position: relative;
+   gap: 50px;
   flex-wrap: wrap;
+}
+@media (max-width:1000px){
+  .start{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* LEFT TEXT */
