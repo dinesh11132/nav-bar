@@ -1614,7 +1614,7 @@ MAIN SECTION
 }
 
 .footer-logo {
-  width: 140px;
+  width: 280px;
   margin-bottom: 20px;
   object-fit: cover;
 }
@@ -1694,6 +1694,11 @@ MAIN SECTION
   border-radius: 14px;
   border: 1px solid #e5e5e5;
   transition: 0.4s;
+  display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+
 }
 
 .footer-box:hover {
@@ -1748,7 +1753,7 @@ MAIN SECTION
     grid-template-columns: 1fr;
   }
 }
-.bottom {
+.top{
   background: #ffffff;
   padding: 25px 5%;
   border-top: 1px solid #e5e5e5;
@@ -1757,7 +1762,7 @@ MAIN SECTION
   align-items: center;
   flex-wrap: wrap;
   gap: 15px;
-  font-family: 'Poppins', sans-serif;
+ 
 }
 
 /* COPYRIGHT TEXT */
@@ -1798,7 +1803,7 @@ MAIN SECTION
 @media (max-width: 600px) {
   .bottom {
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .foot-btn {
