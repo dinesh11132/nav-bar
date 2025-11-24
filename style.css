@@ -94,21 +94,23 @@ nav ul li a:hover {
   position: absolute;
   top: 220px;
   left: 10%;
+  line-height: 2.5;
 }
 .photo2 img {
   width: 100%;
   height: auto;
-  filter: brightness(50%);
+  filter: brightness(40%);
 }
 .para {
   line-height: 13px;
 }
 .text2 h1 {
-  background: linear-gradient(to right, #f90020, #ee5656);
+  background: linear-gradient(to right, #ffffff, #ffffff);
   background-clip: text;
   color: transparent;
   font-size: 50px;
   margin-bottom: 20px;
+  
 }
 .text2 p {
   color: white;
@@ -126,6 +128,7 @@ nav ul li a:hover {
   background: linear-gradient(to right, rgb(249, 0, 32), rgb(238, 86, 86));
   cursor: pointer;
   width: 20%;
+
 }
 aside {
   display: none;
@@ -134,15 +137,15 @@ aside {
   display: block;
 }
 .cta2 {
-  padding: 10px 20px;
-  border-radius: 20px;
-  font-weight: 600;
-  font-size: medium;
-  color: rgb(255, 255, 255);
-  border: none;
-  background-color: rgb(16, 16, 143);
-  cursor: pointer;
-  width: fit-content;
+    padding: 12px 24px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: rgb(16, 16, 143);
+    cursor: pointer;
+    width: 200px
 }
 a {
   padding: 10px;
