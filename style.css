@@ -252,7 +252,7 @@ a {
 .side a {
   text-decoration: none;
   color: black;
-  font-size: x-large;
+  font-size: 18px;
 }
 .topic a {
   text-decoration: none;
@@ -3084,7 +3084,7 @@ MAIN SECTION
   }
 
   .info-row {
-    justify-content: center;
+    /* justify-content: center; */
     text-align: left;
   }
 }
